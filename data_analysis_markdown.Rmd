@@ -1,11 +1,13 @@
 ---
 output:
-  html_document:
+  html_document: 
     toc: yes
     toc_float: yes
+    theme: cosmo
 editor_options: 
   markdown: 
     wrap: sentence
+knit: (function(inputFile, encoding) {rmarkdown::render(inputFile, encoding = encoding, output_file = file.path(dirname(inputFile), 'index.html')) })
 ---
 
 ## **Data analysis - basics**
